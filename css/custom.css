@@ -1,8 +1,16 @@
 
 h1 {
-    color: teal;
+    color: #eb4300;
 }
 
+.intro {
+    color: #ffffff;
+    background-color: #272727;
+}
+
+p {
+    font-family: "Lato", "sans-serif";
+}
 
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
