@@ -20,6 +20,14 @@ h3 {
     font-family: "Averia Libre", "cursive";
 }
 
+a > h3 {
+    color: black;
+    border-bottom: 5px solid #eb4300;
+    text-decoration: none;
+    padding-bottom: 3px;
+    margin-bottom: 20px;
+}
+
 p {
     font-family: "Open Sans", "sans-serif";
 }
