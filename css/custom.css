@@ -1,15 +1,38 @@
 
+@import url('https://fonts.googleapis.com/css?family=Averia+Serif+Libre');
+@import url('https://fonts.googleapis.com/css?family=Averia+Libre');
+
 h1 {
     color: #eb4300;
+    font-family: "Averia Libre", "cursive";
+    font-size: 68px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-family: "Averia Libre", "cursive";
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+h3 {
+    font-family: "Averia Libre", "cursive";
+}
+
+p {
+    font-family: "Open Sans", "sans-serif";
 }
 
 .intro {
     color: #ffffff;
     background-color: #272727;
+    padding-top: 15px;
 }
 
-p {
-    font-family: "Lato", "sans-serif";
+.img {
+    padding-top: 10px;
+    padding-bottom: 25px;
 }
 
 // Extra small devices (portrait phones, less than 576px)
