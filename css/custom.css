@@ -33,17 +33,26 @@ a > h3 {
     text-decoration: none;
     margin-top: 10px;
     margin-bottom: 20px;
-    padding-bottom: 4px;
+    padding-bottom: 5px;
 }
 
 a:hover {
     text-decoration: none;
 }
 
+li {
+    line-height: 2em;
+}
+
+.container-fluid {
+    background-color: #272727;
+}
+
 .intro {
     color: #ffffff;
-    background-color: #272727;
-    padding-top: 15px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    line-height: 2;
 }
 
 .img {
@@ -72,9 +81,9 @@ a:hover {
 
 .footer {
     color: #ffffff;
-    background-color: #272727;
     text-align: right;
     padding-top: 15px;
+    margin-top: 20px;
 }
 
 
@@ -102,6 +111,10 @@ h3 {
 
 p {
     font-size: 17px;
+}
+
+.intro {
+    font-size: 24px;
 }
 
 .btn {
