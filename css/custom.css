@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Averia+Libre');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
+body {
+    background-color: #fbfbfb; 
+}
+
 h1 {
-    color: #eb4300;
+    color: #cc3300;
     font-family: "Averia Libre", "cursive";
     font-size: 68px;
     margin-top: 25px;
@@ -25,11 +29,11 @@ p {
 
 a > h3 {
     color: black;
-    border-bottom: 5px solid #eb4300;
+    border-bottom: 5px solid #cc3300;
     text-decoration: none;
-    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     padding-bottom: 4px;
-    margin-bottom: 15px;
 }
 
 a:hover {
@@ -48,10 +52,22 @@ a:hover {
 }
 
 .btn {
+    color: #272727;
     font-family: "Averia Libre", "cursive";
+    border-color: #272727;
     border-radius: 0;
-    margin-top: 15px;
+    margin-top: 30px;
     margin-bottom: 15px;
+}
+
+.btn:hover {
+    background-color: #272727;
+}
+
+.collapse {
+    font-family: "Open Sans", "sans-serif";
+    color: #000000;
+    margin-bottom: 25px;
 }
 
 .footer {
@@ -62,18 +78,40 @@ a:hover {
 }
 
 
-// Extra small devices (portrait phones, less than 576px)
-// No media query since this is the default in Bootstrap
+/* Extra small devices (portrait phones, less than 576px)
+    No media query since this is the default in Bootstrap */
 
 
-// Small devices (landscape phones, 576px and up)
+/* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { ... }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
 
-// Large devices (desktops, 992px and up)
+h1 {
+    font-size: 90px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+p {
+    font-size: 17px;
+}
+
+.btn {
+    font-size: 28px;
+}
+
+ }
+
+/* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { ... }
 
-// Extra large devices (large desktops, 1200px and up)
+/* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { ... }
