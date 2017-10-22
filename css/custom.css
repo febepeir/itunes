@@ -2,11 +2,21 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 body {
-    background-color: #fbfbfb; 
+    width: 100%;
+    height: 100%;
+    background-image:url(https://images.unsplash.com/photo-1495696414638-78ee23f25668?w=1950);
+    background-size: cover;
+    background-attachment:fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.gray  {
+    background-color: rgba(251, 251, 251, 0.6);
 }
 
 h1 {
-    color: #cc3300;
+    color: #fbfbfb;
     font-family: "Averia Libre", "cursive";
     font-size: 68px;
     margin-top: 25px;
@@ -14,6 +24,7 @@ h1 {
 }
 
 h2 {
+    color: #272727;
     font-family: "Averia Libre", "cursive";
     font-weight: bold;
     margin-top: 25px;
@@ -44,7 +55,7 @@ li {
     line-height: 2em;
 }
 
-.container-fluid {
+.dark {
     background-color: #272727;
 }
 
@@ -82,8 +93,7 @@ li {
 .footer {
     color: #ffffff;
     text-align: right;
-    padding-top: 15px;
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 
@@ -98,7 +108,7 @@ li {
 @media (min-width: 768px) { 
 
 h1 {
-    font-size: 90px;
+    font-size: 100px;
 }
 
 h2 {
